@@ -57,7 +57,7 @@ class NextFitAllocator:
             print(f"Block {i+1}: Size = {block.size}, Used = {block.used}, Remaining = {block.remaining_size}")
 
 
-# Example usage
+
 if __name__ == "__main__":
     # Create memory blocks
     memory_blocks = [MemoryBlock(100), MemoryBlock(200), MemoryBlock(300), MemoryBlock(400)]
